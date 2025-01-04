@@ -1,0 +1,25 @@
+.header
+{
+    color: white;
+    background-color:#343635;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_logo{
+        margin-left: 10vh;
+    }
+
+    &_menu{
+        margin-right: 10vh;
+        display: flex;
+
+        &_button{
+            margin-left: 3vh;
+        }
+    }
+
+
+
+}

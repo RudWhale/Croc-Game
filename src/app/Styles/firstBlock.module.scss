@@ -1,0 +1,52 @@
+.firstBlock{
+    color: black;
+    height: 100vh;
+    background-color:#6f7c75;
+
+    &_firstTitle, &_secondTitle{
+        width: 60vw;
+        height: 10vh;
+        display: flex;
+        justify-content: flex-end;
+        border: 1px solid red;
+    }
+
+    &_workBlock{
+        border: 3px solid green;
+        display:flex;
+
+
+        &_info, &_img{
+            width: 50vw;
+            height: 70vh;
+            border: 1px solid blue;
+            display: flex;
+        }
+
+        &_info{
+            padding-left: 5vw;
+            flex-direction: column;
+
+            &_text{
+                margin-top: 5vh;
+                height: 60%;
+                display: flex;
+                align-items: center;
+                border: 1px solid orange;
+            }
+        }
+
+        &_img{
+            padding-right: 5vw;
+        }
+
+        &_btn{
+            margin-top: 5vh;
+            width: 15vw;
+            height: 5vh;
+            display: flex;
+
+            border: 1px solid yellow;
+        }
+    }
+}

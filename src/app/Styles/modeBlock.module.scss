@@ -1,0 +1,27 @@
+.modeBlock{
+    background-color: gray;
+    padding: 5vh 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_title{
+        border: 2px solid orange;
+    }
+
+    &_modes{
+        margin-top: 5vh;
+        width: 100%;
+        border: 2px solid green;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+
+        &_element{
+            margin: 1vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid blueviolet
+        }
+    }
+}

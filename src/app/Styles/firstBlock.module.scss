@@ -1,9 +1,14 @@
-.firstBlock{
+.firstBlock {
     color: black;
     height: 100vh;
-    background-color:#6f7c75;
+    background-color: #6f7c75;
+    font-family: "Rubik Mono One", serif;
+    font-weight: 300;
+    font-style: normal;
 
-    &_firstTitle, &_secondTitle{
+
+    &_firstTitle,
+    &_secondTitle {
         width: 60vw;
         height: 10vh;
         display: flex;
@@ -11,23 +16,24 @@
         border: 1px solid red;
     }
 
-    &_workBlock{
+    &_workBlock {
         border: 3px solid green;
-        display:flex;
+        display: flex;
 
 
-        &_info, &_img{
+        &_info,
+        &_img {
             width: 50vw;
             height: 70vh;
             border: 1px solid blue;
             display: flex;
         }
 
-        &_info{
+        &_info {
             padding-left: 5vw;
             flex-direction: column;
 
-            &_text{
+            &_text {
                 margin-top: 5vh;
                 height: 60%;
                 display: flex;
@@ -36,11 +42,11 @@
             }
         }
 
-        &_img{
+        &_img {
             padding-right: 5vw;
         }
 
-        &_btn{
+        &_btn {
             margin-top: 5vh;
             width: 15vw;
             height: 5vh;

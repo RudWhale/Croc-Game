@@ -13,6 +13,7 @@ export default function Modes() {
       <ElementModes />
       <ElementModes />
       <ElementModes/>
+      <ElementModes/>
     </div>
   );
 }

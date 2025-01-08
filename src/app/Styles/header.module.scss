@@ -5,19 +5,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    &_logo {
-        margin-left: 10vh;
-        font-family: "Exo 2", serif;
-        font-size: 30;
-        font-weight: 900;
-        font-style: normal;
-    }
+    padding: 0 10vh;
 
     &_menu {
-        margin-right: 10vh;
         display: flex;
-
 
         &_button {
             margin-left: 3vh;

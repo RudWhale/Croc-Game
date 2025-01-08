@@ -1,0 +1,56 @@
+.footer {
+    height: 20vh;
+    background-color: gray;
+    padding: 5vh 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &_upBlock {
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid orange;
+
+        &_logo{
+            border: 2px solid pink;
+            width: 10vw;
+        }
+
+        &_contacts{
+            border: 2px solid green;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            &_email, &_title{
+                margin-bottom: 1vh;
+            }
+
+            &_sosial{
+                display: flex;
+
+                &_el{
+                    border: 2px solid blue;
+                    margin-left: 3vh;
+                    width: 4vh;
+                    height: 4vh;
+                }
+            }
+        }
+    }
+
+    &_line{
+        border-top: 1px solid white;
+    }
+
+    &_downBlock {
+        display: flex;
+        justify-content: center;
+        border: 2px solid black;
+
+        &_btn{
+            border: 2px solid darkorchid;
+            padding: 1vh 10vh;
+        }
+    }
+}

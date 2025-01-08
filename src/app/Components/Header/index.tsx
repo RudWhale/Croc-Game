@@ -1,5 +1,5 @@
 import styles from "../../Styles/header.module.scss";
-import HeaderBtn from "../Header Button"
+import HeaderBtn from "./Button Menu"
 
 export default function Header() {
 return (
@@ -8,10 +8,9 @@ return (
     Logo
     </div>
     <div className={styles.header_menu}>
-    <HeaderBtn name="Игры"/>
+    <HeaderBtn name="Режимы"/>
     <HeaderBtn name="Правила"/>
-    <HeaderBtn name="???"/>
-    <HeaderBtn name="О нас"/>
+    <HeaderBtn name="Контакты"/>
     </div>
 </div>
 )

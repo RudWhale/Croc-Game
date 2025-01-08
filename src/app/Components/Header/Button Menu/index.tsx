@@ -1,4 +1,4 @@
-import styles from "../../Styles/header.module.scss";
+import styles from "../../../Styles/header.module.scss";
 
 export default function HeaderBtn(props:any) {
   return (

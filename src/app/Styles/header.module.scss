@@ -1,22 +1,25 @@
-.header
-{
+.header {
     color: white;
-    background-color:#343635;
+    background-color: #343635;
     height: 8vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    &_logo{
+    &_logo {
         margin-left: 10vh;
     }
 
-    &_menu{
+    &_menu {
         margin-right: 10vh;
         display: flex;
 
-        &_button{
+
+        &_button {
             margin-left: 3vh;
+            font-family: "Montserrat Alternates", serif;
+            font-weight: 100;
+            font-style: normal;
         }
     }
 

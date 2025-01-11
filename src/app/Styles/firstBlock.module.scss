@@ -6,6 +6,11 @@
     font-weight: 300;
     font-style: normal;
 
+    background-image: url('../../../public/bgFirstBlock.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
 
     &_firstTitle,
     &_secondTitle {
@@ -22,7 +27,7 @@
 
 
         &_info,
-        &_img {
+        &_blockImage {
             width: 50vw;
             height: 70vh;
             border: 1px solid blue;
@@ -42,8 +47,19 @@
             }
         }
 
-        &_img {
+        &_blockImage {
             padding-right: 5vw;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+
+
+
+            &_img {
+                width: 90%;
+                margin-bottom: -1.5vh;
+            }
+
         }
 
         &_btn {

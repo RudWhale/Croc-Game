@@ -61,8 +61,16 @@
         border: 2px solid black;
 
         &_btn {
+            background-color: rgba($color: #2B3F19, $alpha: 0.4);
+            font-size: 15;
             border: 2px solid darkorchid;
             padding: 1vh 10vh;
+
+            transition: .3s;
+
+            &:hover{
+                font-size: 17;
+            }
         }
     }
 }

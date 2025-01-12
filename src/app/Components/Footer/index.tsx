@@ -15,7 +15,7 @@ export default function Footer() {
             </div>
             <div className={styles.footer_line}></div>
             <div className={styles.footer_downBlock}>
-                <div className={styles.footer_downBlock_btn}>Back</div>
+                <div className={styles.footer_downBlock_btn}>ВВЕРХ</div>
             </div>
         </div>
     );

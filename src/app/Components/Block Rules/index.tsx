@@ -19,7 +19,9 @@ export default function BlockRules() {
         <div>Во в всех режимах можно включить функцию "Задание Отстающим", в которой будет задание для команды или игрока набравшего меньше баллов по истечению 5,10 или 15 раундов. Задание будет с тематикой выбранного режима.</div>
       </div>
 
-      <div className={styles.blockRules_img}>img</div>
+      <div className={styles.blockRules_img}>
+        <img src="croc-rules.png" alt="" />
+      </div>
     </div>
   );
 }

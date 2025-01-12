@@ -29,9 +29,13 @@
     }
 
     &_img {
-        margin: 0 50vw 2vh 0;
+        margin: 0 50vw 4vh 0;
         width: 10vw;
-        height: 10vh;
+        height: 15vh;
         border: 2px solid blue;
+
+        img{
+            width: 140%;
+        }
     }
 }

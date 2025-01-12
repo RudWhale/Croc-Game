@@ -14,7 +14,7 @@
         width: 100%;
         border: 2px solid green;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
 
         &_element {
             margin: 1vh;
@@ -32,7 +32,7 @@
             }
 
             &_icon {
-                
+
                 img {
                     width: 40%;
                 }

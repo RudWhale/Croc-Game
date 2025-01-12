@@ -13,7 +13,7 @@
     &_upBlock {
         display: flex;
         justify-content: space-between;
-        border: 2px solid orange;
+        align-items: center;
 
         &_logo {
 
@@ -28,7 +28,6 @@
         }
 
         &_contacts {
-            border: 2px solid green;
             display: flex;
             flex-direction: column;
             align-items: flex-end;
@@ -43,7 +42,6 @@
 
                 &_el {
                     opacity: 0.5;
-                    border: 2px solid blue;
                     margin-left: 2vh;
                     width: 4vh;
                     height: 4vh;
@@ -58,17 +56,16 @@
 
     &_line {
         border-top: 1px solid white;
+        opacity: 0.2;
     }
 
     &_downBlock {
         display: flex;
         justify-content: center;
-        border: 2px solid black;
 
         &_btn {
             background-color: rgba($color: #2B3F19, $alpha: 0.4);
             font-size: 15;
-            border: 2px solid darkorchid;
             padding: 1vh 10vh;
 
             transition: .3s;

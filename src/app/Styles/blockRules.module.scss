@@ -1,26 +1,24 @@
 .blockRules {
-    background-color: #F2F4CB;
-    padding: 5vh 10vh 0 10vh;
+    color: #F2F4CB;
+    background-color: #2B3F19;
+    padding: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #2B3F19;
     font-family: "Rubik Mono One", serif;
     font-weight: 400;
     font-style: normal;
 
     &_title {
-        border: 2px solid;
         font-size: 40;
-        opacity: 0.9;
+        // opacity: 0.9;
     }
 
     &_info {
         width: 70vw;
-        border: 2px solid green;
         margin: 2vh 0 2vh 0;
-        font-size: 20;
-        opacity: 0.7;
+        font-size: 19;
+        opacity: 0.6;
 
         div{
             margin: 1vh 0 1vh 0; 
@@ -29,11 +27,8 @@
     }
 
     &_img {
-        margin: 0 50vw 4vh 0;
         width: 10vw;
         height: 15vh;
-        border: 2px solid blue;
-
         img{
             width: 140%;
         }

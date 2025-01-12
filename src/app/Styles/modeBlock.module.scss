@@ -1,27 +1,50 @@
-.modeBlock{
+.modeBlock {
     background-color: gray;
-    padding: 5vh 10vh;
+    padding: 5vh 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    &_title{
+    &_title {
         border: 2px solid orange;
     }
 
-    &_modes{
+    &_modes {
         margin-top: 5vh;
         width: 100%;
         border: 2px solid green;
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
 
-        &_element{
+        &_element {
             margin: 1vh;
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: center;
-            border: 2px solid blueviolet
+            border: 2px solid blueviolet;
+
+            &_header {
+                margin: 1vh;
+                width: 95%;
+                border: 1px solid;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &_icon {
+                
+                img {
+                    width: 40%;
+                }
+            }
+
+            &_btn {
+                margin: 1vh;
+                text-align: center;
+                padding: 1vh;
+                width: 60%;
+                border: 2px solid orange;
+            }
         }
     }
 }

@@ -42,10 +42,15 @@
                 display: flex;
 
                 &_el {
+                    opacity: 0.5;
                     border: 2px solid blue;
-                    margin-left: 3vh;
+                    margin-left: 2vh;
                     width: 4vh;
                     height: 4vh;
+
+                    img{
+                        width: 100%;
+                    }
                 }
             }
         }

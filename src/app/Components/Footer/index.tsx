@@ -8,8 +8,8 @@ export default function Footer() {
             <div className={styles.footer_upBlock}>
                 <LogoPWL/>
                 <div className={styles.footer_upBlock_contacts}>
-                    <div className={styles.footer_upBlock_contacts_title}>contacts</div>
-                    <div className={styles.footer_upBlock_contacts_email}>email</div>
+                    <div className={styles.footer_upBlock_contacts_title}>КОНТАКТЫ</div>
+                    <div className={styles.footer_upBlock_contacts_email}>rudkouski.web@gmail.com</div>
                     <Sosial />
                 </div>
             </div>

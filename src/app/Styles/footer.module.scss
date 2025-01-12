@@ -6,37 +6,42 @@
     flex-direction: column;
     justify-content: space-between;
 
+    font-family: "Montserrat Alternates", serif;
+    font-weight: 300;
+    font-style: normal;
+
     &_upBlock {
         display: flex;
         justify-content: space-between;
         border: 2px solid orange;
 
-        &_logo{
+        &_logo {
 
             width: 15vw;
             height: 60%;
             opacity: 0.8;
 
-            img{
+            img {
                 width: 70%;
 
             }
         }
 
-        &_contacts{
+        &_contacts {
             border: 2px solid green;
             display: flex;
             flex-direction: column;
             align-items: flex-end;
 
-            &_email, &_title{
+            &_email,
+            &_title {
                 margin-bottom: 1vh;
             }
 
-            &_sosial{
+            &_sosial {
                 display: flex;
 
-                &_el{
+                &_el {
                     border: 2px solid blue;
                     margin-left: 3vh;
                     width: 4vh;
@@ -46,7 +51,7 @@
         }
     }
 
-    &_line{
+    &_line {
         border-top: 1px solid white;
     }
 
@@ -55,7 +60,7 @@
         justify-content: center;
         border: 2px solid black;
 
-        &_btn{
+        &_btn {
             border: 2px solid darkorchid;
             padding: 1vh 10vh;
         }

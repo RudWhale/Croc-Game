@@ -1,18 +1,16 @@
 import styles from "../../Styles/footer.module.scss";
+import LogoPWL from "./LogoPWL";
+import Sosial from "./Sosial";
 
 export default function Footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.footer_upBlock}>
-                <div className={styles.footer_upBlock_logo}>logo</div>
+                <LogoPWL/>
                 <div className={styles.footer_upBlock_contacts}>
                     <div className={styles.footer_upBlock_contacts_title}>contacts</div>
                     <div className={styles.footer_upBlock_contacts_email}>email</div>
-                    <div className={styles.footer_upBlock_contacts_sosial}>
-                        <div className={styles.footer_upBlock_contacts_sosial_el}>GH</div>
-                        <div className={styles.footer_upBlock_contacts_sosial_el}>Inst</div>
-                        <div className={styles.footer_upBlock_contacts_sosial_el}>TG</div>
-                    </div>
+                    <Sosial />
                 </div>
             </div>
             <div className={styles.footer_line}></div>

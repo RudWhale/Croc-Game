@@ -1,6 +1,6 @@
 .footer {
     height: 20vh;
-    background-color: gray;
+    background-color: rgba($color: #2B3F19, $alpha: 0.7);
     padding: 5vh 10vh;
     display: flex;
     flex-direction: column;
@@ -12,8 +12,15 @@
         border: 2px solid orange;
 
         &_logo{
-            border: 2px solid pink;
-            width: 10vw;
+
+            width: 15vw;
+            height: 60%;
+            opacity: 0.8;
+
+            img{
+                width: 70%;
+
+            }
         }
 
         &_contacts{

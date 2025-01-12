@@ -1,7 +1,6 @@
 .firstBlock {
     color: #2B3F19;
     height: 100vh;
-    background-color: #6f7c75;
     font-family: "Rubik Mono One", serif;
     font-weight: 400;
     font-style: normal;
@@ -77,8 +76,6 @@
             justify-content: center;
             align-items: flex-end;
 
-
-
             &_img {
                 width: 90%;
                 margin-bottom: -1.5vh;
@@ -90,9 +87,21 @@
             margin-top: 5vh;
             width: 15vw;
             height: 5vh;
+            color: #e2e7a8;
+            font-size: 16;
+            background-color: #6D7A2E;
             display: flex;
+            align-items: center;
+            justify-content: center;
 
             border: 1px solid yellow;
+            transition: 0.3s;
+
+            &:hover{
+                width: 16vw;
+                height: 6vh;
+                margin-top: 4.5vh;
+            }
         }
     }
 }

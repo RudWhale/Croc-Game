@@ -1,5 +1,6 @@
 import Header from "./Components/Header";
 import FirstBlock from "./Components/First Block";
+import BlockRules from "./Components/Block Rules";
 import styles from "./page.module.scss";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div className={styles.page}>
       <Header/>
       <FirstBlock/>
+      <BlockRules/>
     </div>
   );
 }

@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import FirstBlock from "./Components/First Block";
 import BlockRules from "./Components/Block Rules";
 import ModeBlock from "./Components/ModeBlock";
+import Footer from "./Components/Footer";
 import styles from "./page.module.scss";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <FirstBlock/>
       <BlockRules/>
       <ModeBlock/>
+      <Footer/>
     </div>
   );
 }

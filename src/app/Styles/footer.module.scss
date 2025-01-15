@@ -1,0 +1,78 @@
+.footer {
+    height: 20vh;
+    background-color: rgba($color: #2B3F19, $alpha: 0.7);
+    padding: 5vh 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    font-family: "Montserrat Alternates", serif;
+    font-weight: 300;
+    font-style: normal;
+
+    &_upBlock {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &_logo {
+
+            width: 15vw;
+            height: 60%;
+            opacity: 0.8;
+
+            img {
+                width: 70%;
+
+            }
+        }
+
+        &_contacts {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+            &_email,
+            &_title {
+                margin-bottom: 1vh;
+            }
+
+            &_sosial {
+                display: flex;
+
+                &_el {
+                    opacity: 0.5;
+                    margin-left: 2vh;
+                    width: 4vh;
+                    height: 4vh;
+
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    &_line {
+        border-top: 1px solid white;
+        opacity: 0.2;
+    }
+
+    &_downBlock {
+        display: flex;
+        justify-content: center;
+
+        &_btn {
+            background-color: rgba($color: #2B3F19, $alpha: 0.4);
+            font-size: 15;
+            padding: 1vh 10vh;
+
+            transition: .3s;
+
+            &:hover{
+                font-size: 17;
+            }
+        }
+    }
+}

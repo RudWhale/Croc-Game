@@ -1,0 +1,42 @@
+[
+    {
+        "name":"КЛАССИКА",
+        "age": "6+",
+        "icon":"iconsModes/1.png"
+    },
+    {
+        "name":"СПОРТИВНЫЙ",
+        "age": "12+",
+        "icon":"iconsModes/2.png"
+    },
+    {
+        "name":"БЕЗУМНЫЙ",
+        "age": "18+",
+        "icon":"iconsModes/3.png"
+    },
+    {
+        "name":"СОВРЕМЕННЫЙ",
+        "age": "16+",
+        "icon":"iconsModes/4.png"
+    },
+    {
+        "name":"КИНОШКА",
+        "age": "6+",
+        "icon":"iconsModes/5.png"
+    },
+    {
+        "name":"???",
+        "age": "6+",
+        "icon":"iconsModes/6.png"
+    },
+    {
+        "name":"СССР",
+        "age": "16+",
+        "icon":"iconsModes/7.png"
+    },
+    {
+        "name":"БОЛЬШЕ ЧЕМ 18+",
+        "age": "18+",
+        "icon":"iconsModes/8.png"
+    }
+]

@@ -4,7 +4,7 @@ import Sosial from "./Sosial";
 
 export default function Footer() {
     return (
-        <div className={styles.footer}>
+        <div className={styles.footer} id="contacts">
             <div className={styles.footer_upBlock}>
                 <LogoPWL/>
                 <div className={styles.footer_upBlock_contacts}>

@@ -4,7 +4,7 @@ import TitleMB from "./Title";
 
 export default function ModeBlock() {
     return (
-      <div className={styles.modeBlock}>
+      <div className={styles.modeBlock} id="modes">
         <TitleMB/>
         <Modes/>
       </div>

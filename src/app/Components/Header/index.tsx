@@ -7,9 +7,9 @@ export default function Header() {
         <div className={styles.header}>
             <Logo />
             <div className={styles.header_menu}>
-                <HeaderBtn name="Режимы" />
-                <HeaderBtn name="Правила" />
-                <HeaderBtn name="Контакты" />
+                <HeaderBtn name="Режимы" link="modes" />
+                <HeaderBtn name="Правила" link="rules"/>
+                <HeaderBtn name="Контакты" link="contacts"/>
             </div>
         </div>
     )

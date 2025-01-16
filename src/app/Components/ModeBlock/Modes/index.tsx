@@ -6,7 +6,7 @@ export default function Modes() {
   return (
     <div className={styles.modeBlock_modes}>
       {modes.map((el,i) => (
-        <ElementModes age={el.age} name={el.name} icon={el.icon} key={i}/>
+        <ElementModes age={el.age} name={el.name} icon={el.icon} key={i} link={el.link}/>
       ))}
     </div>
   );

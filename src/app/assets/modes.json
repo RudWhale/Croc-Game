@@ -2,41 +2,49 @@
     {
         "name":"КЛАССИКА",
         "age": "6+",
-        "icon":"iconsModes/1.png"
+        "icon":"iconsModes/1.png",
+        "link":"classic"
     },
     {
         "name":"СПОРТИВНЫЙ",
         "age": "12+",
-        "icon":"iconsModes/2.png"
+        "icon":"iconsModes/2.png",
+        "link":"sport"
     },
     {
         "name":"БЕЗУМНЫЙ",
         "age": "18+",
-        "icon":"iconsModes/3.png"
+        "icon":"iconsModes/3.png",
+        "link":"crazy"
     },
     {
         "name":"СОВРЕМЕННЫЙ",
         "age": "16+",
-        "icon":"iconsModes/4.png"
+        "icon":"iconsModes/4.png",
+        "link":"modern"
     },
     {
         "name":"КИНОШКА",
         "age": "6+",
-        "icon":"iconsModes/5.png"
+        "icon":"iconsModes/5.png",
+        "link":"cinema"
     },
     {
         "name":"???",
         "age": "6+",
-        "icon":"iconsModes/6.png"
+        "icon":"iconsModes/6.png",
+        "link":"soon"
     },
     {
         "name":"СССР",
         "age": "16+",
-        "icon":"iconsModes/7.png"
+        "icon":"iconsModes/7.png",
+        "link":"USSR"
     },
     {
         "name":"БОЛЬШЕ ЧЕМ 18+",
         "age": "18+",
-        "icon":"iconsModes/8.png"
+        "icon":"iconsModes/8.png",
+        "link":"18+"
     }
 ]
